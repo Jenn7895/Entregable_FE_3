@@ -1,0 +1,58 @@
+.formContainer {
+	width: 300px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #f9f9f9;
+}
+
+.formContainer h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.formGroup {
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.formGroup label {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #555;
+}
+
+.formGroup input {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+.submitButton {
+	width: 100%;
+	padding: 10px;
+	font-size: 1em;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+	background-color: #0056b3;
+}
+
+.errorMessage {
+	color: red;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
